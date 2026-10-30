@@ -1,0 +1,20 @@
+# Conda environment with all dependencies, including GDAL:
+#   conda env create -f environment.yml
+name: degurba
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - gdal
+  - rasterio
+  - geopandas>=0.14
+  - pyogrio
+  - shapely>=2
+  - pycountry
+  - geopy
+  - pip
+  - pip:
+      - pgeocode
+      - google-i18n-address

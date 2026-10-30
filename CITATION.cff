@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below, together with the GHSL datasets it uses (see README)."
+title: "degurba_world: Degree of Urbanisation for postcodes worldwide"
+abstract: >-
+  Python tool that assigns the Degree of Urbanisation (DEGURBA) to postcodes
+  worldwide, at grid level (GHS-SMOD R2023A) and administrative-unit level
+  (GHS-DUC R2023A on GADM 4.1), from the JRC Global Human Settlement Layer.
+type: software
+authors:
+  - family-names: "Casanovas"
+    given-names: "Ivan"
+    affiliation: "OpenSystems, Universitat de Barcelona"
+    orcid: "https://orcid.org/0009-0003-6168-7459"
+version: 0.1.0
+date-released: 2026-10-16
+license: MIT
+repository-code: "https://github.com/ivancasanovaas/degurba_world"
+keywords:
+  - degree of urbanisation
+  - DEGURBA
+  - urban-rural classification
+  - GHSL
+  - postcodes
+  - geocoding
+references:
+  - type: data
+    title: "GHS-SMOD R2023A - GHS settlement layers, application of the Degree of Urbanisation methodology (stage I) to GHS-POP R2023A and GHS-BUILT-S R2023A, multitemporal (1975-2030)"
+    authors:
+      - family-names: Schiavina
+        given-names: Marcello
+      - family-names: Melchiorri
+        given-names: Michele
+      - family-names: Pesaresi
+        given-names: Martino
+    publisher:
+      name: "European Commission, Joint Research Centre (JRC)"
+    year: 2023
+    doi: 10.2905/A0DF7A6F-49DE-46EA-9BDE-563437A6E2BA
+  - type: data
+    title: "GHS-DUC R2023A - GHS Degree of Urbanisation Classification, application of the Degree of Urbanisation methodology (stage II) to GADM 4.1 layer, multitemporal (1975-2030)"
+    authors:
+      - family-names: Schiavina
+        given-names: Marcello
+      - family-names: Melchiorri
+        given-names: Michele
+      - family-names: Freire
+        given-names: Sergio
+    publisher:
+      name: "European Commission, Joint Research Centre (JRC)"
+    year: 2023
+    doi: 10.2905/DC0EB21D-472C-4F5A-8846-823C50836305

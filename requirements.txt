@@ -1,0 +1,12 @@
+# Dependencies for pip: pip install -r requirements.txt
+# With conda, use environment.yml instead.
+numpy
+pandas
+rasterio
+geopandas>=0.14
+pyogrio
+shapely>=2
+pgeocode
+pycountry
+geopy
+google-i18n-address

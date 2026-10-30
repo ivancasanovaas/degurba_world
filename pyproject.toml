@@ -1,0 +1,46 @@
+# Package metadata. pip reads this file when you run "pip install ." or
+# "pip install -e ." to install degurba_world with its dependencies and the
+# degurba-world command.
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "degurba_world"
+version = "0.1.0"
+description = "Degree of Urbanisation (DEGURBA) for postcodes worldwide, from the JRC Global Human Settlement Layer"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Ivan Casanovas Rodríguez" }]
+requires-python = ">=3.10"
+keywords = ["degree of urbanisation", "DEGURBA", "GHSL", "urban-rural", "postcode", "geocoding"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: GIS",
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "rasterio",
+    "geopandas>=0.14",
+    "pyogrio",
+    "shapely>=2",
+    "pgeocode",
+    "pycountry",
+    "geopy",
+    "google-i18n-address",
+]
+
+[project.scripts]
+degurba-world = "degurba_world:_main"
+
+[project.urls]
+Homepage = "https://github.com/ivancasanovaas/degurba_world"
+Documentation = "https://github.com/ivancasanovaas/degurba_world/tree/main/docs"
+Issues = "https://github.com/ivancasanovaas/degurba_world/issues"
+
+[tool.setuptools]
+py-modules = ["degurba_world"]

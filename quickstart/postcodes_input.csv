@@ -1,0 +1,21 @@
+id,postcode,country,region,place
+1,08028,ES,,
+2,SW1A 1AA,,,
+3,1067,DE,,
+4,45661,US,Ohio,
+5,45661,,California,
+6,ABCDE,DE,,
+7,,MX,,
+8,560001,IN,,
+9,ABC123,KE,,
+10,1234,PT,,
+11,28370,ES,,
+12,68000,MX,,
+13,8001,ZA,Western Cape,Cape Town
+14,8092,,,
+15,90100,FI,,
+16,25720,,,
+17,999999,ZZ,,
+18,53100,IT,,
+19,100000,CN,,Beijing
+20,,,Galicia,
